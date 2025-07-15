@@ -67,7 +67,9 @@ export default function Register() {
 
   return (
     <main className="flex">
-      <div className={`${racing.className} p-5 mx-5 flex flex-rows absolute top-10 text-2xl`}>
+      <div
+        className={`${racing.className} p-5 mx-5 flex flex-rows absolute top-10 text-2xl`}
+      >
         <h1 className="text-black text-1xl">Renta</h1>
         <h1 className="text-[#D80032] text-1xl">.co</h1>
       </div>

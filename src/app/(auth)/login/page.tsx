@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import { Lato, Racing_Sans_One } from "next/font/google";
@@ -96,4 +97,10 @@ export default function Login() {
       </div>
     </main>
   );
+=======
+import LoginForm from "@/components/forms/LoginFrom";
+
+export default function Login() {
+  return <LoginForm />;
+>>>>>>> afef0ebe191f3880e8b300154f0f7d7c21eb42f1
 }

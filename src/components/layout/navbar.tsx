@@ -54,16 +54,32 @@ export default function Navbar() {
         <h1 className="text-[#D80032] text-1xl">.co</h1>
       </div>
 
+<<<<<<< HEAD:src/app/navbar.tsx
       {/* Menu Tengah */}
       <ul className={`${lato.className} absolute left-1/2 -translate-x-1/2 flex space-x-1`}>
+=======
+      {/* Tengah: menu */}
+      <ul
+        className={`${lato.className} absolute left-1/2 -translate-x-1/2 flex space-x-1`}
+      >
+>>>>>>> afef0ebe191f3880e8b300154f0f7d7c21eb42f1:src/components/layout/navbar.tsx
         <Link href="/">
           <li className={`mr-6 ${pathname === "/" ? "text-[#D80032]" : "text-black"} cursor-pointer`}>
             Home
           </li>
         </Link>
+<<<<<<< HEAD:src/app/navbar.tsx
 
         <Link href="/about">
           <li className={`mr-6 ${pathname === "/about" ? "text-[#D80032]" : "text-black"} cursor-pointer`}>
+=======
+        <Link href="/cars">
+          <li
+            className={`mr-6 ${
+              pathname === "/cars" ? "text-[#D80032]" : "text-black"
+            } cursor-pointer`}
+          >
+>>>>>>> afef0ebe191f3880e8b300154f0f7d7c21eb42f1:src/components/layout/navbar.tsx
             View Car
           </li>
         </Link>
